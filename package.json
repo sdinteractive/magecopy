@@ -1,0 +1,19 @@
+{
+  "name": "@jawannc/magecopy",
+  "bin": {
+    "magecopy": "./index.js"
+  },
+  "version": "0.0.1",
+  "description": "Interactive CLI app to copy files within Magento themes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jawann Carmona",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^7.2.0",
+    "enquirer": "^2.3.6",
+    "filehound": "^1.17.4"
+  }
+}
