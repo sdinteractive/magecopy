@@ -1,9 +1,5 @@
 # magecopy
-CLI program to copy Magento theme files. 
-
-https://www.npmjs.com/package/@jawannc/magecopy (private package)
-### Install npm package
-`yarn add @jawannc/magecopy`
+CLI program to copy Magento theme files.
 
 ### Clone from Git
 1. Clone magecopy repository into root folder and run yarn inside magecopy folder.
