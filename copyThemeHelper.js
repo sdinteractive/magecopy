@@ -19,7 +19,7 @@ var copyMagentoFile = function(fileName, parent, child) {
 
 const commitFile = (themeFile) => {
     const fileName = path.parse(themeFile).base;
-    exec(`git add ${themeFile} && git commit -m "chore: Copy ${fileName} to override \n\nCopying ${themeFile} to theme to override." `, (err, stdout, stderr) => {
+    exec(`git add ${themeFile} && git commit -m "chore: copy ${fileName} to override \n\nCopying ${themeFile} to theme to override." `, (err, stdout, stderr) => {
         if (err) {
           console.log('This file may have already been committed.')
           return;
